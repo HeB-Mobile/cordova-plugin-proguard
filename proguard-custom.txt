@@ -108,3 +108,8 @@
 # These clases contain references to cordova webView
 -keep class com.ionicframework.cordova.webview.** {*; }
 -keep class com.ionicframework.cordova.webview.*
+
+-dontwarn com.exxbrain.**
+-dontwarn com.nimbusds.**
+-dontwarn okhttp3.internal.**
+-dontwarn okio.**
