@@ -113,3 +113,8 @@
 -dontwarn com.nimbusds.**
 -dontwarn okhttp3.internal.**
 -dontwarn okio.**
+
+-keep class com.ebworx.bdimicroapps.BuildConfig { *; }
+-keep class com.danamon.sitomnimicroapps.BuildConfig { *; }
+-keep class com.danamon.uatomnimicroapps.BuildConfig { *; }
+-keep class com.danamon.bdiomnimicroapps.BuildConfig { *; }
