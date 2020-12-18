@@ -119,3 +119,4 @@
 -keep class com.danamon.sitomnimicroapps.BuildConfig { *; }
 -keep class com.danamon.uatomnimicroapps.BuildConfig { *; }
 -keep class com.dbank.mobile.BuildConfig { *; }
+-keep class com.danamon.ptomnimicroapps.BuildConfig { *; }
