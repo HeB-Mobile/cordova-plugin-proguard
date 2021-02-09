@@ -114,6 +114,9 @@
 -dontwarn okhttp3.internal.**
 -dontwarn okio.**
 
+# cordova-plugin-firebase-analytics don't work if didn't keep the class
+-keep class by.chemerisuk.cordova.** {*; }
+
 -keep class com.ebworx.bdimicroapps.BuildConfig { *; }
 -keep class com.danamon.bdimicroapps.BuildConfig { *; }
 -keep class com.danamon.sitomnimicroapps.BuildConfig { *; }
